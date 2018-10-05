@@ -1,0 +1,251 @@
+.movie{
+    border: solid black;
+}
+.movieO{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+
+}
+.total{
+    height: 100%;
+    background-image: url('http://www.cartoondistrict.com/wp-content/uploads/2016/10/HD-LOL-Wallpaper-and-Background-4.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    color:              whitesmoke;
+    font-family: 'Cinzel', serif;
+
+}
+
+p{
+
+    color:              white;
+    border:             4px solid;
+    background:         rgb(3, 3, 3);
+    mix-blend-mode:     multiply;
+    font-family: 'Cinzel', serif;
+    text-align:         center;
+    margin:             0;
+}
+.title{
+    border-radius: 100%;
+    margin-left: 50px;
+    font-size:50px;
+}
+.titleO{
+    width:100%;
+    display: flex;
+    border-bottom: 5px solid whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.wholeAdd{
+    height: 40px;
+    float: right;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    background: whitesmoke;
+    padding: 30px;
+    margin-top: -114px;
+}
+.addWrap{
+    margin: 20px 0px;
+    width: 100%;
+}
+.add{
+    border-radius: 10px;    
+    font-family: 'Cinzel', serif;
+
+}
+.addButton{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid rgb(5, 5, 5);
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s; 
+    background-color: rgba(131, 129, 129, 0.801);  
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.addButton:hover{
+    transition: 100ms;
+    color:black;
+    background-color:#FFFFFF; 
+}
+.addName{
+    box-shadow: 0px 0px 5px rgba(0,0,0);
+    background-color: rgba(0,0,0,.5);  
+    font-size: 20px;
+    color: whitesmoke;
+    margin-right: -3px;
+    border-radius: 0px;
+    border-color: rgb(3, 3, 3);
+}
+input::placeholder{
+    color: whitesmoke;
+    font-size: 75%;
+    opacity: 1;
+
+}
+.movie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    float: left;
+    border-radius: 20px;
+    border:3px solid slategrey;
+    height: 560px;
+    width: 47vw;
+    margin:20px 0px 0px 1.9vw;
+    padding:0px;
+    background-color: rgba(250, 250, 250, 0.5)
+
+}
+.movie:hover{
+background-color: rgba(250, 250, 250, 0.6)
+}
+.poster{
+    height:400px;
+    width: 280px;
+}
+body{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('http://www.cartoondistrict.com/wp-content/uploads/2016/10/HD-LOL-Wallpaper-and-Background-4.png');
+}
+.two{
+    height: 400px;
+    margin-left: 5px;
+}
+h2{
+    font-family: 'Cinzel', serif;
+    font-size: 4vw;
+}
+
+h3{
+    font-family: 'Cinzel', serif;
+    font-size: 2vw;
+
+}
+a{
+    color:black;
+}
+
+.matchItem{
+    border-top: 1px solid whitesmoke;
+    background-color: rgba(250, 250, 250, .75);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black
+}
+.matchItem:hover{
+    background-color: rgba(3, 3, 3, 0.7);
+    transition: 400ms;
+    color: white;
+}
+.list{
+    margin-top: 60px;
+}
+
+
+
+#button {
+    font-family: 'Cinzel', serif;
+    position: absolute;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 7px 20px;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    top: 50%;
+    border-radius: 50px;
+    color:#FFFFFF;
+    text-shadow: -1px -1px 1px rgba(0,0,0,0.8);
+    border: 5px solid transparent;
+    border-bottom-color: rgba(0,0,0,0.35);
+    background-color: rgb(131, 129, 129);  
+    cursor: pointer;
+    outline: 0 !important;
+    animation: pulse 1s infinite alternate;
+    transition: border 0.2s, margin 0.2s;
+    height: 200px;
+}
+#button:hover {
+    transition: 300ms;
+    color:black;
+    background-color:rgb(226, 224, 224); 
+    margin-top: -1px;
+    animation: none;
+    text-shadow: none;
+}
+#button:active {
+    border-bottom-width: 0;
+    margin-top: 5px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teams{
+    font-family: 'Cinzel', serif;
+    background-color: rgba(250, 250, 250, 0.8);
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.mitigator{
+    border: 2px solid black;
+}
+.player{
+    border-bottom: 1px solid black;
+}
+.soloTitle{
+    display: flex;
+    color: whitesmoke;
+    font-family: 'Cinzel', serif;
+    justify-content: space-around;
+    font-size: 30px;
+    background-color: rgba(192, 192, 192, .7);
+    margin-top: 10px;
+}
+.soloStats{
+    background-color: rgba(192, 192, 192, .7);
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    display:flex;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+.section{
+    width: 20vw;
+}
+l{
+    font-size: 18px;
+}
+.back{
+    text-align: center;
+    font-size: 300px;
+    color: rgba(250, 250, 250, 0.5)
+}
